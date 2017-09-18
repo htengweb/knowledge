@@ -27,6 +27,7 @@ function checkStatus(response) {
 //     .then(data => ({ data }))
 //     .catch(err => ({ err }));
 // }
+
 export default{
 	get(url,params){
 		let arr=[];
