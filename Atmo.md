@@ -6,8 +6,7 @@
 
 ![](https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png)
 
-![](https://atom.io/):https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png
-
+[![](https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png)](https://atom.io/)
 
 * 安装插件[activate-poser-mode](https://atom.io/packages/activate-power-mode)
 
