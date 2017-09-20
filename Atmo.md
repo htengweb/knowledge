@@ -4,7 +4,7 @@
 
 * 官网下载[https://atom.io/](https://atom.io/)<br/>
 ![baidu](http://www.baidu.com)
-![baidu](http://www.baidu.com/img/bdlogo.gif)
+![baidu](https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png)
 
 ![atmo](https://atom.io/)
 [atmo]:https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png
