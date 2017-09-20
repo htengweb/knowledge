@@ -3,10 +3,10 @@
 * 软件下载
 
 * 官网下载[https://atom.io/](https://atom.io/)<br/>
-![baidu](http://www.baidu.com)
-![baidu](https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png)
 
-![atmo](https://atom.io/)
+![](https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png)
+
+[![atmo][(https://atom.io/)
 [atmo]:https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png
 
 * 安装插件[activate-poser-mode](https://atom.io/packages/activate-power-mode)
