@@ -3,7 +3,7 @@
 * 软件下载
 
 * 官网下载[https://atom.io/](https://atom.io/)<br/>
-[![weibo-logo]](http://weibo.com/linpiaochen)
+`[![weibo-logo]](http://weibo.com/linpiaochen)`
 [![weibo-logo]](http://weibo.com/linpiaochen)
 
 ![atmo](https://atom.io/)
