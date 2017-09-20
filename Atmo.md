@@ -10,12 +10,14 @@
 
 * activate-power-mode设置
 
-\#   Packages -> Setting View -> Open -> Install  <br/>
+>Packages -> Setting View -> Open -> Install  <br/>
 
 ![](https://github.com/htengweb/react-knowledge/blob/master/images/activateSetting.png)
 
->>>安装完成后即可看到效果，如何不行，请设置Paceages->Activate Power Mode ->Open && Enable
+>安装完成后即可看到效果，如何不行，请设置Paceages->Activate Power Mode ->Open && Enable
 
 * 开始抖起来吧
 
 ![](https://github.com/htengweb/react-knowledge/blob/master/images/activate-power-mode.gif)
+
+>安装[`babel`](https://atom.io/packages/language-babel)语法高亮
