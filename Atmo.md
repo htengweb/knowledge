@@ -3,8 +3,7 @@
 * 软件下载
 
 * 官网下载[https://atom.io/](https://atom.io/)<br/>
-[![baidu]](http://baidu.com)
-[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"
+`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)
 
 ![atmo](https://atom.io/)
 [atmo]:https://github.com/htengweb/react-knowledge/blob/master/images/atmo.png
