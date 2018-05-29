@@ -15,7 +15,7 @@
 > cnpm install --save-dev babel-register
 
 -------------------------------------------
-*根目录下创建一个新文件： .babelrc
+* 根目录下创建一个新文件： .babelrc
 ###
 ```json
 {
@@ -36,5 +36,5 @@
 ```
 ###
 -------------------------------------------
-*引用：app.js
+* 引用：app.js
 > require("babel-register");
