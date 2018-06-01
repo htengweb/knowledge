@@ -11,6 +11,7 @@ ren *.png *.jpg
 @echo off
 for /r %%a in (*.png) do ren "%%a" "%%~na." 
 （此处把png文件后缀名改成空） 
+------------------------------------------------
 @echo off
 for /r %%a in (*.png) do ren "%%a" "%%~na.jpg" 
 （此处把png文件后缀名改成jpg）
