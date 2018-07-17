@@ -1,5 +1,5 @@
 # node init
-* cnpm init  创建初始文件
+> cnpm init  创建初始文件
 * package.json
 ```json
   "dependencies": {
@@ -54,4 +54,4 @@ function saveImg(x,y,z){
 	});
 }
 ```
-* node app.js   启动
+> node app.js   启动
