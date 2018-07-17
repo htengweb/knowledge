@@ -1,6 +1,9 @@
 # node init
 * create app.js
 ```javascript
+var request = require('request');
+var fs = require('fs');
+var makeDir = require('make-dir');
 var arg={
 	minX:12482,//12482
 	maxX:12482,//13340,
