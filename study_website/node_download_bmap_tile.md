@@ -1,4 +1,16 @@
 # node init
+* cnpm init  创建初始文件
+* package.json
+```json
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.2",
+    "make-dir": "^1.3.0",
+    "nodemon": "^1.17.5",
+    "request": "^2.87.0"
+  }
+```
 * create app.js
 ```javascript
 var request = require('request');
@@ -42,3 +54,4 @@ function saveImg(x,y,z){
 	});
 }
 ```
+* node app.js   启动
