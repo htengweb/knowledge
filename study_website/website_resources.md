@@ -4,7 +4,7 @@
 
 http://www.jetbrains.com/webstorm/  //webStorm软件
 
-http://ss.ishadowx.com/             //翻墙软件
+http://ss.ishadowx.com/             //翻墙软件  
 https://my.ishadowx.net/
 
 http://www.qdfuns.com/               //前端网
