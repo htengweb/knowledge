@@ -48,3 +48,8 @@ https://github.com/reactjs/react-redux        //reach-redux
 http://reactnative.cn/                     //react Native中文文档
 
 https://facebook.github.io/react-native/docs/getting-started.html   //react-native
+
+
+===============================================================   
+百度脑图开发   
+https://github.com/fex-team/kityminder
