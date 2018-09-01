@@ -28,7 +28,7 @@ axios.interceptors.response.use((response) => {
 			loadingInstance.close()
 		}
 	}
-	cookieId=getCookie('JSESSIONID')
+	cookieId=getCookie('cookieName')
 	return response
 },err=>{
 	Message.error('请求错误:'+err)
@@ -38,7 +38,7 @@ axios.interceptors.response.use((response) => {
 		loadingInstance.close()
 	}
   //判断cookie重新刷新页面
-	if(getCookie('JSESSIONID') && cookieId!==getCookie('JSESSIONID')){
+	if(getCookie('cookieName') && cookieId!==getCookie('cookieName')){
 		window.location.reload()
 	}
 })
