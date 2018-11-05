@@ -11,8 +11,7 @@
 }
 ```
 * VSCode插件  
-> power-mode 炫酷气泡插件 
-下载安装Power Mode后，配置setting.json
+> power-mode 炫酷气泡插件。下载安装Power Mode后，配置setting.json
 ```
 "powermode.enabled": true
 ```
