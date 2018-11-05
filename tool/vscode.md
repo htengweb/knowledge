@@ -15,3 +15,7 @@
 ```
 "powermode.enabled": true
 ```
+> Vue语法高亮
+```
+Vetur
+```
