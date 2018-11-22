@@ -1,8 +1,8 @@
 # slove install create-app failed  
 
-* npm config set registry https://registry.npm.taobao.org  
+> npm config set registry https://registry.npm.taobao.org  
 
-* npm config get registry
+> npm config get registry
 
-* npm create-react-app <project name>
+> npm create-react-app <project name>
 
