@@ -15,9 +15,9 @@ react-native --version
 
 ```
 * 创建react-native项目
-> >react-native init <project name>
+> \>react-native init < project name >
 * 启动项目(首次启动慢，需要下载大量编译依赖。此过程依赖科学上网)
-> >react-native run-android
+> \>react-native run-android
 > 安装 Android Studio
 
 > 安装 Android SDK
