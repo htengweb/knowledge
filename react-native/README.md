@@ -58,30 +58,30 @@ android {
 	signingConfigs{
 		//调试中也使用正式签名
 		debug {
-	        storeFile file("my-release-key.keystore")//引用签名秘钥文件
-	        keyAlias "my-key-alias" //keytool中-alias对应设置的名称
-	        keyPassword "password" //生成签名秘钥文件时设置的密码
-	        storePassword "password" //生成签名秘钥文件时设置的密码
+			storeFile file("my-release-key.keystore")//引用签名秘钥文件
+			keyAlias "my-key-alias" //keytool中-alias对应设置的名称
+			keyPassword "password" //生成签名秘钥文件时设置的密码
+			storePassword "password" //生成签名秘钥文件时设置的密码
 		}
 		release {
-	        storeFile file("my-release-key.keystore")//引用签名秘钥文件
-	        keyAlias "my-key-alias" //keytool中-alias对应设置的名称
-	        keyPassword "password" //生成签名秘钥文件时设置的密码
-	        storePassword "password" //生成签名秘钥文件时设置的密码
+			storeFile file("my-release-key.keystore")//引用签名秘钥文件
+			keyAlias "my-key-alias" //keytool中-alias对应设置的名称
+			keyPassword "password" //生成签名秘钥文件时设置的密码
+			storePassword "password" //生成签名秘钥文件时设置的密码
 		}
 	}
 	buildTypes {
-        debug {
-            minifyEnabled  false
-            proguardFiles "proguard-rules.pro"
-            signingConfig signingConfigs.debug
-        }
-        release {
-            minifyEnabled enableProguardInReleaseBuilds
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            signingConfig signingConfigs.release
-        }
-    }
+		debug {
+			minifyEnabled  false
+			proguardFiles "proguard-rules.pro"
+			signingConfig signingConfigs.debug
+		}
+		release {
+			minifyEnabled enableProguardInReleaseBuilds
+			proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+			signingConfig signingConfigs.release
+		}
+	}
 }
 ```
 
@@ -92,7 +92,8 @@ cd android
 \android>gradlew assembleRelease
 ```
 
-*
+* 打包好的apk地址
+> \android\app\build\outpts\apk\relese\app-release.apk
 
 
 
