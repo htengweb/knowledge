@@ -19,7 +19,9 @@ react-native --version
 * 启动项目(首次启动慢，需要下载大量编译依赖。此过程依赖科学上网)
 > \>react-native run-android
 > [安装 Android Studio](https://developer.android.com/studio/)
+
 > [安装JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 > 安装 Android SDK
 ```javscript
 配置环境变量
