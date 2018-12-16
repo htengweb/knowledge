@@ -117,5 +117,97 @@ react-native link react-native-elements
 npm install react-native-camera
 react-native link react-native-camera
 ......
+```
+* 修改应用程序名称
+```
+android/app/src/main/res/values/strings/xml
+<resources>
+    <string name="app_name">应用名称</string>
+</resources>
+```
+* 修改应用程序图标
+```
+替换:android/app/src/main/res/下的图标
+[图标工厂](https://icon.wuruihong.com/)
+用生成后的图标直接替换对应尺寸的图标即可
+```
+* 添加启动页
+```
+添加启动页可以使用[react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
+
+npm install react-native-splash-screen
+react-native link react-native-splash-screen
+
+```
+```
+[配置教程](https://github.com/crazycodeboy/react-native-splash-screen)
+创建launch_screen.xml android/app/src/main/res/layout/launch_screen.xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch_screen">
+</LinearLayout>
+创建启动屏图片文件
+android/app/src/main/res/drawable-xhdpi/launch_screen.png
+android/app/src/main/res/drawable-xxhdpi/launch_screen.png
+...
+设置样式
+创建android/app/src/main/res/values/colors.xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#000000</color>
+</resources>
+android/app/src/main/res/values/styles.xml
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--设置透明背景-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
+```
+> MainActivity.java配置
+```
+android/app/src/main/java/com/application/MainActivity.java
+
+package com.application;
+import android.os.Bundle;//here
+import com.facebook.react.ReactActivity;
+import org.devio.rn.splashscreen.SplashScreen;//here
+
+public class MainActivity extends ReactActivity {
+    /**
+    * 添加SplashScreen
+    */
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        SplashScreen.show(this);  // here
+        super.onCreate(savedInstanceState);//here
+    }
+
+    /**
+     * Returns the name of the main component registered from JavaScript.
+     * This is used to schedule rendering of the component.
+     */
+    @Override
+    protected String getMainComponentName() {
+        return "application";
+    }
+}
+
+```
+> 启动成功后隐藏SplashScreen
+```
+import {AppRegistry} from 'react-native';
+import App from './App';
+import {name as appName} from './app.json';
+import SplashScreen from 'react-native-splash-screen';//here
+
+AppRegistry.registerComponent(appName, () =>{
+    SplashScreen.hide();//here
+    return App
+});
 
 ```
