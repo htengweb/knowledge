@@ -98,7 +98,21 @@ cd android
 * 打包好的apk地址
 > \android\app\build\outpts\apk\relese\app-release.apk
 
+* 编译打包发布报错
+> android\app\build.gradle
+```
+android {
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
 
+    ...
+}
+重点：折磨了很久才找到原因
+禁用aapt的审查即可
+报错信息：
+Error: java.util.concurrent.ExecutionException: com.android.builder.internal.aapt.v2.Aapt2Exception: AAPT2 error: check logs for details
+
+```
 
 * 启动报错
 ```javscript
