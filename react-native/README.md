@@ -126,21 +126,20 @@ android/app/src/main/res/values/strings/xml
 </resources>
 ```
 * 修改应用程序图标
+[图标工厂](https://icon.wuruihong.com/)
 ```
 替换:android/app/src/main/res/下的图标
-[图标工厂](https://icon.wuruihong.com/)
 用生成后的图标直接替换对应尺寸的图标即可
 ```
 * 添加启动页
-```
 添加启动页可以使用[react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
-
+```
 npm install react-native-splash-screen
 react-native link react-native-splash-screen
 
 ```
-```
 [配置教程](https://github.com/crazycodeboy/react-native-splash-screen)
+```
 创建launch_screen.xml android/app/src/main/res/layout/launch_screen.xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -148,10 +147,12 @@ react-native link react-native-splash-screen
     android:layout_height="match_parent"
     android:background="@drawable/launch_screen">
 </LinearLayout>
+
 创建启动屏图片文件
 android/app/src/main/res/drawable-xhdpi/launch_screen.png
 android/app/src/main/res/drawable-xxhdpi/launch_screen.png
 ...
+
 设置样式
 创建android/app/src/main/res/values/colors.xml
 <?xml version="1.0" encoding="utf-8"?>
