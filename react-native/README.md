@@ -107,3 +107,15 @@ cd android
 1、在项目目录：android/app/src/main 目录下创建一个 assets 空文件夹。
 2、react-native新版本，目录下有index.js和App.js。执行命令：> react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
 ```
+
+* react-native 安装包后不能正确引用问题
+> react-native link < package name >
+```
+npm install react-native-elements
+react-native link react-native-elements
+
+npm install react-native-camera
+react-native link react-native-camera
+......
+
+```
