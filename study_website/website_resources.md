@@ -41,7 +41,9 @@ http://phonegap.com/                    //webAPP打包工具
 
 http://www.appcelerator.com/            //webAPP打包工具
 
-http://www.appcan.cn/                     //webAPP打包工具
+http://www.appcan.cn/                     //webAPP打包工具  
+
+http://scriptoj.mangojuice.top             //javascript刷题网站
 
 /*==============================react===================================*/
 
