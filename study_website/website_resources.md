@@ -1,4 +1,4 @@
-[https://docschina.org/](https://docschina.org/)  印记中文   
+[https://docschina.org/](https://docschina.org/)  印记中文
 
 [http://www.java1234.com/](http://www.java1234.com/)          学习资源文件下载
 
@@ -6,7 +6,7 @@
 
 http://www.jetbrains.com/webstorm/  //webStorm软件
 
-http://ss.ishadowx.com/             //翻墙软件  
+https://d.ishadowx.com/             //翻墙软件
 https://my.ishadowx.net/
 
 http://www.qdfuns.com/               //前端网
@@ -41,7 +41,7 @@ http://phonegap.com/                    //webAPP打包工具
 
 http://www.appcelerator.com/            //webAPP打包工具
 
-http://www.appcan.cn/                     //webAPP打包工具  
+http://www.appcan.cn/                     //webAPP打包工具
 
 http://scriptoj.mangojuice.top             //javascript刷题网站
 
@@ -54,6 +54,6 @@ http://reactnative.cn/                     //react Native中文文档
 https://facebook.github.io/react-native/docs/getting-started.html   //react-native
 
 
-===============================================================   
-百度脑图开发   
+===============================================================
+百度脑图开发
 https://github.com/fex-team/kityminder
