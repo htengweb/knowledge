@@ -1,14 +1,14 @@
 # vue and typescript
 
-* install global vue-cli and create vue project
-> npm install -g @vue/cli 
- 
-> yarn add global @vue/cli  
+### install global vue-cli and create vue project
+> npm install -g @vue/cli
+or
+> yarn add global @vue/cli
 
-look version #> vue --version  
+look version #> vue --version
 
-> vue create < project name >  
-* new create vue.config.js
+> vue create < project name >
+### new create vue.config.js
 ```javascript
 module.exports = {
     publicPath:'./',
@@ -31,11 +31,13 @@ module.exports = {
     }
 }
 ```
-* install modules
-> cnpm install vue-class-component vue-property-decorator --save    
+### install modules
+> cnpm install vue-class-component vue-property-decorator --save
 
-> cnpm install ts-loader typescript tslint tslint-loader tslint-config-standard --save-dev  
+> cnpm install ts-loader typescript tslint tslint-loader tslint-config-standard --save-dev
 
+* typescript plugin for vue-cli
+> cnpm install @vue/cli-plugin-typescript --save-dev
 ```json
 {
   "name": "ts-vue",
@@ -95,7 +97,7 @@ module.exports = {
   ]
 }
 ```
-* new create file of tsconfig.json  
+### new create file of tsconfig.json
 ```json
 {
     "compilerOptions": {
@@ -116,8 +118,8 @@ module.exports = {
             "webpack-env"
         ],
         "paths": {
-            "@/*": [
-                "src/*"
+            "@/###": [
+                "src/###"
             ]
         },
         "lib": [
@@ -128,18 +130,18 @@ module.exports = {
         ]
     },
     "include": [
-        "src/**/*.ts",
-        "src/**/*.tsx",
-        "src/**/*.vue",
-        "tests/**/*.ts",
-        "tests/**/*.tsx"
+        "src/######/###.ts",
+        "src/######/###.tsx",
+        "src/######/###.vue",
+        "tests/######/###.ts",
+        "tests/######/###.tsx"
     ],
     "exclude": [
         "node_modules"
     ]
 }
 ```
-* new create file of tslint.json   
+### new create file of tslint.json
 ```json
 {
     "defaultSeverity": "warning",
@@ -148,7 +150,7 @@ module.exports = {
     ],
     "linterOptions": {
         "exclude": [
-            "node_modules/**"
+            "node_modules/######"
         ]
     },
     "rules": {
@@ -170,15 +172,15 @@ module.exports = {
     }
 }
 ```
-* change main.js to main.ts   
-* change App.vue   
+### change main.js to main.ts
+### change App.vue
 ```javascript
 <script lang="ts">
 import { Component,Vue } from 'vue-property-decorator'
 @Component({
     name: 'App',
     components:{
-        
+
     }
 })
 class App extends Vue {}
