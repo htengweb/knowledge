@@ -150,19 +150,32 @@ module.exports = {
     ],
     "linterOptions": {
         "exclude": [
-            "node_modules/######"
+            "node_modules/**"
         ]
     },
     "rules": {
+        // 字符串引号方式
         "quotemark": [
-            true,
+            false,
             "single"
         ],
+        // 缩进字符
         "indent": [
             true,
             "spaces",
-            2
+            4
         ],
+        // 句末是否必须分号
+        "semicolon":[
+            false,
+            "always",
+            "ignore-interfaces"
+        ],
+        "trailing-comma": [
+            true
+        ],
+        // 定义箭头函数是否需要括号
+        "arrow-parens": false,
         "interface-name": false,
         "ordered-imports": false,
         "object-literal-sort-keys": false,
