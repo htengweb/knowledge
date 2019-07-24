@@ -210,3 +210,18 @@ p {
   position: relative; left: $x; top: $y;
 }
 ```
+* @function  函数指令
+```scss
+$grid-width: 40px;
+$gutter-width: 10px;
+@function grid-width($n) {
+  @return $n * $grid-width + ($n - 1) * $gutter-width;
+}
+.sidebar { 
+    width: grid-width(5);
+}
+// 编译后
+.sidebar {
+    width: 240px; 
+}
+```
