@@ -1,14 +1,24 @@
 # vue and typescript
 
 ### install global vue-cli and create vue project
-> npm install -g @vue/cli
+```
+$ npm install -g @vue/cli
 or
-> yarn add global @vue/cli
+$ yarn add global @vue/cli
+```
 
-look version #> vue --version
+* look version  
+```
+$ vue --version
+```
 
-> vue create < project name >
+* create project
+```
+$ vue create < project name >
+```
+
 ### new create vue.config.js
+
 ```javascript
 module.exports = {
     publicPath:'./',
@@ -31,13 +41,19 @@ module.exports = {
     }
 }
 ```
-### install modules
-> cnpm install vue-class-component vue-property-decorator --save
 
-> cnpm install ts-loader typescript tslint tslint-loader tslint-config-standard --save-dev
+### install modules
+```
+$ cnpm install vue-class-component vue-property-decorator --save
+
+$ cnpm install ts-loader typescript tslint tslint-loader tslint-config-standard --save-dev
+```
 
 * typescript plugin for vue-cli
-> cnpm install @vue/cli-plugin-typescript --save-dev
+```
+$ cnpm install @vue/cli-plugin-typescript --save-dev
+```
+
 ```json
 {
   "name": "ts-vue",
@@ -97,6 +113,7 @@ module.exports = {
   ]
 }
 ```
+
 ### new create file of tsconfig.json
 ```json
 {
@@ -141,6 +158,7 @@ module.exports = {
     ]
 }
 ```
+
 ### new create file of tslint.json
 ```json
 {
@@ -185,6 +203,7 @@ module.exports = {
     }
 }
 ```
+
 ### change main.js to main.ts
 ### change App.vue
 ```javascript
