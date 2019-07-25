@@ -1,4 +1,5 @@
 # SCSS的用法
+![SCSS](https://img.shields.io/badge/-SCSS-ff69b4.svg)
 * $ 变量
 ```scss
 // create file variable.scss
