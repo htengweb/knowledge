@@ -7,8 +7,10 @@
 ![Vue.js](https://img.shields.io/badge/-Vue.js-brightgreen.svg)
 ![JavaScript](https://img.shields.io/badge/-Javascript-orange.svg)
    
-* git reset fetch   
+* git reset fetch 
+```
 $ git fetch --all   
 $ git reset --hard origin/master
+```  
 
 

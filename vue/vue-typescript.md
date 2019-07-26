@@ -48,8 +48,11 @@ $ cnpm install vue-class-component vue-property-decorator --save
 
 $ cnpm install ts-loader typescript tslint tslint-loader tslint-config-standard --save-dev
 ```
-
-* typescript plugin for vue-cli
+* install sass
+```
+$ cnpm install node-sass sass-loader --save-dev
+```
+* typescript plugin for vue-cli ( discern ts file )
 ```
 $ cnpm install @vue/cli-plugin-typescript --save-dev
 ```
@@ -218,4 +221,19 @@ import { Component,Vue } from 'vue-property-decorator'
 class App extends Vue {}
 export default App
 </script>
+```
+```typescript
+// App.tsx | App.tx
+import Vue, { CreateElement } from 'vue'
+import { Component } from 'vue-property-decorator'
+@Component<App>({
+
+})
+export default class App extends Vue {
+    render(h: CreateElement){
+        return (
+            <div id="app"></div>
+        )
+    }
+}
 ```
