@@ -135,8 +135,8 @@ $ cnpm install @vue/cli-plugin-typescript --save-dev
             "webpack-env"
         ],
         "paths": {
-            "@/###": [
-                "src/###"
+            "@/*": [
+                "src/*"
             ]
         },
         "lib": [
@@ -147,11 +147,11 @@ $ cnpm install @vue/cli-plugin-typescript --save-dev
         ]
     },
     "include": [
-        "src/######/###.ts",
-        "src/######/###.tsx",
-        "src/######/###.vue",
-        "tests/######/###.ts",
-        "tests/######/###.tsx"
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "tests/**/*.ts",
+        "tests/**/*.tsx"
     ],
     "exclude": [
         "node_modules"
