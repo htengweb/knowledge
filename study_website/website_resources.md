@@ -6,8 +6,10 @@
 
 http://www.jetbrains.com/webstorm/  //webStorm软件
 
-https://d.ishadowx.com/             //翻墙软件
+https://d.ishadowx.com/             //翻墙软件   
 https://my.ishadowx.net/
+
+[https://ppssr.tk/](https://ppssr.tk/)
 
 http://www.qdfuns.com/               //前端网
 

@@ -1,11 +1,25 @@
-# study notes
+<h1 align="center">study notes</h1>
+<p align="center">
+    <a title="Note">
+        <img src="https://img.shields.io/badge/-Note-lightgrey.svg" />
+    </a>
+    <a title="WebGL">
+        <img src="https://img.shields.io/badge/-WebGL-blue.svg" />
+    </a>
+    <a title="Canvas">
+        <img src="https://img.shields.io/badge/-Canvas-yellowgreen.svg" />
+    </a>
+    <a title="React.js">
+        <img src="https://img.shields.io/badge/-React.js-blueviolet.svg" />
+    </a>
+    <a title="Vue.js">
+        <img src="https://img.shields.io/badge/-Vue.js-brightgreen.svg" />
+    </a>
+    <a title="JavaScript">
+        <img src="https://img.shields.io/badge/-Javascript-orange.svg" />
+    </a>
+</p>
 
-![Note](https://img.shields.io/badge/-Note-lightgrey.svg)
-![WebGL](https://img.shields.io/badge/-WebGL-blue.svg)
-![Canvas](https://img.shields.io/badge/-Canvas-yellowgreen.svg)
-![React.js](https://img.shields.io/badge/-React.js-blueviolet.svg)
-![Vue.js](https://img.shields.io/badge/-Vue.js-brightgreen.svg)
-![JavaScript](https://img.shields.io/badge/-Javascript-orange.svg)
    
 * git reset fetch 
 ```

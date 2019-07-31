@@ -10,3 +10,5 @@
 >[字体转换](http://www.freefontconverter.com/)
 
 >[github生成标签，装X专用](https://shields.io/)
+
+>[ShadowsocksR](https://ppssr.tk/)
