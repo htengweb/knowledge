@@ -19,7 +19,7 @@ server {
 }
 sserver {
     listen 80;
-    server_name < 域名 >; // server_name teng-design.com;
+    server_name < 域名 >; // server_name www.teng-design.com;
 }
 ```
 * 配置gzip
