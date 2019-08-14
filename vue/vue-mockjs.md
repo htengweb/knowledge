@@ -16,7 +16,7 @@ const login = Mock.mock({
 })
 Mock.mock(/\/api\/login/, 'get', login);
 ```
-> main.js中应用mock.js文件
+> main.js中引用mock.js文件
 ```javascript
 import './mock.js';
 ```
