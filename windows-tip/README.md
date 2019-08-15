@@ -17,3 +17,9 @@ for /r %%a in (*.png) do ren "%%a" "%%~na.jpg"
 （此处把png文件后缀名改成jpg）
 ```
 ###
+* windows10获取文件目录结构
+```
+$ tree
+// or 
+$ tree /F
+```
