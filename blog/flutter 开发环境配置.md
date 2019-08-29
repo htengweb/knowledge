@@ -17,8 +17,37 @@ $ flutter --version
 $ flutter doctor
 // 由于那啥，执行flutter doctor总是执行失败，所以需配置临时镜像
 // 打开环境变量配置
-PUB_HOSTED_UR  =  https://pub.flutter-io.cn
-FLUTTER_STORAGE_BASE_UR  =  https://storage.flutter-io.cn
+PUB_HOSTED_URL  =  https://pub.flutter-io.cn
+FLUTTER_STORAGE_BASE_URL  =  https://storage.flutter-io.cn
 ```
 ![](../images/flutter_path1.png)
 ![](../images/flutter_path2.png)
+* 接受协议
+```
+$ flutter doctor --android-licences
+```
+* 运行flutter doctor是否成功
+```
+$ flutter doctor
+```
+![](../images/flutter_success.png)
+* 列出可使用的设备
+```
+$ flutter emulator
+```
+* 打开指定的模拟器
+```
+$ flutter emulator --launch Nexus_5X_API_28
+// flutter emulator --launch <模拟器的名称>
+```
+* 创建项目
+```
+$ flutter create <project name>
+// flutter create flutter_demo
+```
+* 启动
+```
+$ flutter run
+// 或者编制器中直接启动，启动过程需要Initializing gradle...
+// 编辑器中启动可以热更新
+```
