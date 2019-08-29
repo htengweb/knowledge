@@ -33,12 +33,12 @@ $ flutter doctor
 ![](../images/flutter_success.png)
 * 列出可使用的设备
 ```
-$ flutter emulator
+$ flutter emulators
 ```
 * 打开指定的模拟器
 ```
-$ flutter emulator --launch Nexus_5X_API_28
-// flutter emulator --launch <模拟器的名称>
+$ flutter emulators --launch Nexus_5X_API_28
+// flutter emulators --launch <模拟器的名称>
 ```
 * 创建项目
 ```
