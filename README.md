@@ -26,5 +26,9 @@
 $ git fetch --all   
 $ git reset --hard origin/master
 ```  
-
+* git cherry-pick 
+```
+$ git cherry-pick (--continue | --skip | --abort | --quit)
+$ git cherry-pick 56049c9d7b
+```
 
